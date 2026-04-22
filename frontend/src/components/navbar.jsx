@@ -4,7 +4,7 @@ import { useThemeStore } from "../store/useThemeStore";
 import { LogOut, MessageSquare, Settings, User, Sun, Moon } from "lucide-react";
 
 const Navbar = () => {
-  const { logout, authUser } = useAuthStore();
+  const { logout, authUser } =useAuthStore();
   const { theme, setTheme } =useThemeStore();
 
   return (
